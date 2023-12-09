@@ -6,15 +6,15 @@ import "./products.css";
 
 const Products = () => {
   const dispatch = useDispatch();
-  const productPrice = useSelector((state) => state.cart.price);
-  console.log("Product Sum: ", productPrice);
+  const products = useSelector((state) => state.cart);
+  console.log("Products Sum: ", products.price);
+  console.log("Quantity: ", products.quantity);
   return (
     <section className="products">
       <div className="container">
         <div className="single_product">
           {data.map((product, index) => {
             const { name, image, price, description } = product;
-
             return (
               <div className="all_products" key={index}>
                 <img src={image} alt="" />
