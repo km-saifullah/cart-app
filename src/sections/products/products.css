@@ -1,0 +1,55 @@
+/* ===== Products Design Start ===== */
+.products {
+  padding: 20px;
+}
+.single_product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.all_products {
+}
+.all_products img {
+  height: 300px;
+  width: 400px;
+  border-radius: 8px 8px 0 0;
+}
+.all_products h3,
+p,
+h4 {
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  padding-top: 15px;
+}
+.all_products p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 0.584);
+}
+.all_products h4 {
+  font-size: 18px;
+  color: indianred;
+  padding-bottom: 10px;
+}
+.btn {
+  padding: 10px 0;
+  width: 100%;
+  background-color: salmon;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid salmon;
+}
+/* ===== Products Design End ===== */
